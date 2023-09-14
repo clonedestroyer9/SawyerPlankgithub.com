@@ -38,15 +38,32 @@ $(function () {
     /////////////////////////////////////////////////
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
+createCollectable("grace", 450, 300, 0, 0)
+createCollectable("max", 789, 278, 0, 0)
+createCollectable("steve", 500, 1, 0, 0)
+createCollectable("diamond", 400, 700, 0, 0)
+createCollectable("database", 150, 150, 0, 0)
+createCannon( "bottom", 600, 900)
+createCannon("right", 780, 10)
+createCannon("top", 150, 500)
+createCannon("right", 500, 800,) 
 
     // TODO 1
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
+createPlatform(300, 400, 200, 20)
+createPlatform(300, 600, 200, 20)
+createPlatform(12, 500, 200, 20)
+createPlatform(45, 700, 200, 20)
+createPlatform(500, 550,150, 20)
+createPlatform(450, 140, 200, 20)
+createPlatform(789, 378, 200, 20)
+createPlatform(1000, 250, 200, 20)
+createPlatform(789, 120, 200, 20)
+createPlatform(90, 190, 200, 20)
 
-
-    
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
