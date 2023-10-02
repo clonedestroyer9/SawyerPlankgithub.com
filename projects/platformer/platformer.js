@@ -53,7 +53,7 @@ createCannon("right", 500, 800,)
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-createPlatform(300, 400, 200, 20)
+createPlatform( 300, 400, 200, 20)
 createPlatform(300, 600, 200, 20)
 createPlatform(12, 500, 200, 20)
 createPlatform(45, 700, 200, 20)
