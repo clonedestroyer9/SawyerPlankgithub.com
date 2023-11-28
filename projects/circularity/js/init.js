@@ -51,7 +51,7 @@ var circles = [];
           
 
             // TODO 9 : Iterate over the array
-           for (var i = 0; i < myArray.length; i++) {
+           for (var i = 0; i < 100; i++) {
             physikz.updatePosition(circles[i])
             game.checkCirclePosition(circles[i])
            }
